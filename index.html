@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> 2048 Alison's Version</title>
+    <link rel="stylesheet" type="text/css" href="juego.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      #timer {
+          font-size: 20px;
+          color: #333333;
+      }
+  </style>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1 id="titulo" class="rebote">2048</h1>
+        <div id="timer">Tiempo: 00:00</div>
+        <div class="info-juego">
+        <div id="puntuacion">Puntuación: 0</div>
+        <div id="movimientos">Movimientos: 0</div>
+    </div>
+      <div class="tablero">
+        <div class="filaTablero">
+          <div id="cuadro_0_0" class="cuadroTableroPrimeras"></div>
+          <div id="cuadro_0_1" class="cuadroTableroPrimeras"></div>
+          <div id="cuadro_0_2" class="cuadroTableroPrimeras"></div>
+          <div id="cuadro_0_3" class="cuadroTableroPrimeras"></div>
+      </div>
+        <div class="filaTablero">
+          <div id="cuadro_1_0" class="cuadroTablero"></div>
+          <div id="cuadro_1_1" class="cuadroTablero"></div>
+          <div id="cuadro_1_2" class="cuadroTablero"></div>
+          <div id="cuadro_1_3" class="cuadroTablero"></div>
+      </div>
+      <div class="filaTablero">
+        <div id="cuadro_2_0" class="cuadroTablero"></div>
+        <div id="cuadro_2_1" class="cuadroTablero"></div>
+        <div id="cuadro_2_2" class="cuadroTablero"></div>
+        <div class="result" id="gameOver">GAME OVER!</div>
+        <div id="cuadro_2_3" class="cuadroTablero"></div>
+        <div class="result" id="win">YOU WIN!</div>
+    </div>
+    <div class="filaTablero">
+      <div id="cuadro_3_0" class="cuadroTablero"></div>
+      <div id="cuadro_3_1" class="cuadroTablero"></div>
+      <div id="cuadro_3_2" class="cuadroTablero"></div>
+      <div id="cuadro_3_3" class="cuadroTablero"></div>
+  </div>
+  <div class="filaTablero">
+    <div id="cuadro_4_0" class="cuadroTablero"></div>
+    <div id="cuadro_4_1" class="cuadroTablero"></div>
+    <div id="cuadro_4_2" class="cuadroTablero"></div>
+    <div id="cuadro_4_3" class="cuadroTablero"></div>
+  </div>
+  </div>
+  <div id="matriz-info"></div>
+
+    </div>
+    </div>
+    <script src ="juegoback.js"></script>
+  </body>
+</html>
